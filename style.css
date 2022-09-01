@@ -105,14 +105,14 @@ body {
 .display{
     background-color: rgb(197, 102, 0);
     width: 100%;
-    height: 40vh;
+    height: 43vh;
     border-radius: 30px;
     margin-top: 1em;
 }
 
 .css-code{
     width: 100%;
-    height: 32vh;
+    height: 30vh;
     border: 1px solid green;
     background-color: black;
     border-radius: 30px;
@@ -121,7 +121,7 @@ body {
 }
 
 
-/* Card */
+/* display */
 
 .card {
     height: 20vh;
@@ -131,7 +131,7 @@ body {
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     border-radius: 20px;
     position: relative;
-    top: 24.5%;
+    top: 26.5%;
     left: 24.5%;
 }
 
@@ -144,8 +144,8 @@ body {
     -webkit-backdrop-filter:blur(5px);
     border-radius: 50px;
     position: relative;
-    top: 12%;
-    left: 18%;
+    top: 16%;
+    left: 19%;
 }
 
 .circle-two {
@@ -157,15 +157,16 @@ body {
     -webkit-backdrop-filter:blur(5px);
     border-radius: 80px;
     position: relative;
-    top: -65%;
-    left: 65%;
+    top: -60%;
+    left: 67%;
 }
 
 
+/* css-code */
 
-
-
-
+.code-container {
+    position: relative;
+}
 
 
 
