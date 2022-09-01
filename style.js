@@ -6,8 +6,10 @@ let slider_blur = document.getElementById('myRange-blur');
 
 let display = document.getElementById('disp');
 let card = document.getElementById('card-disp');
+let circle_one = document.getElementById('card-circle-one');
+let circle_two = document.getElementById('card-circle-two');
 
-let r = 0, g = 0, b = 0, opacity = 0;
+let r = 0, g = 0, b = 0, opacity = 0.3, blur = 0;
 
 slider_red.addEventListener('input', (event) => {
     r = slider_red.value;
@@ -39,4 +41,13 @@ slider_opacity.addEventListener('input', (event) => {
     if(!opacity)
         opacity = 0;
     card.style.opacity = opacity;
+})
+
+slider_blur.addEventListener('input', (event) => {
+    blur = slider_blur.value;
+    // console.log(blur);
+    if(!blur)
+        blur = 0;
+    circle_one.style.backdropFilter = `blur(${blur}px)`;
+    circle_two.style.backdropFilter = `blur(${blur}px)`;
 })

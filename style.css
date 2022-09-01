@@ -135,12 +135,13 @@ body {
     left: 24.5%;
 }
 
-
 .circle-one {
     height: 8vh;
     width: 10%;
     background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
     border-radius: 50px;
     position: relative;
     top: 12%;
@@ -152,6 +153,8 @@ body {
     width: 19.5%;
     background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
     border-radius: 80px;
     position: relative;
     top: -65%;
