@@ -9,6 +9,10 @@ let card = document.getElementById('card-disp');
 let circle_one = document.getElementById('card-circle-one');
 let circle_two = document.getElementById('card-circle-two');
 
+let code_filter_one = document.getElementById('code-filter-one');
+let code_filter_two = document.getElementById('code-filter-two');
+let code_gradient = document.getElementById('code-gradient');
+
 let r = 0, g = 0, b = 0, opacity = 0.3, blur = 0;
 
 slider_red.addEventListener('input', (event) => {
@@ -40,7 +44,8 @@ slider_opacity.addEventListener('input', (event) => {
     // console.log(opacity);
     if(!opacity)
         opacity = 0;
-    card.style.opacity = opacity;
+    // card.style.opacity = opacity;
+    card.style.backgroundImage = `linear-gradient(155deg, rgba(255, 255, 255, ${opacity}), rgba(255, 255, 255, 0))`
 })
 
 slider_blur.addEventListener('input', (event) => {
@@ -50,4 +55,6 @@ slider_blur.addEventListener('input', (event) => {
         blur = 0;
     circle_one.style.backdropFilter = `blur(${blur}px)`;
     circle_two.style.backdropFilter = `blur(${blur}px)`;
+    code_filter_one.innerText = blur;
+    code_filter_two.innerText = blur;
 })
