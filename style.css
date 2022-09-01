@@ -121,14 +121,18 @@ body {
 }
 
 .code {
+    width: 80%;
+    height: 18vh;
     color: white;
     position: relative;
-    top: 5%;
-    left: 7%;
+    top: 15%;
+    left: 10%;
+    /* border: 1px solid green; */
+    
 }
 
 .code h3 {
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
 
