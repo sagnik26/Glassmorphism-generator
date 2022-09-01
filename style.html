@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="color-container">
+            <div class="display" id="disp">
+                <!-- Display the color screen here -->
+                <div class="card" id="card-disp">
+                    
+                </div>
+
+                <div class="circle-one" id="card-circle-one"></div>
+                <div class="circle-two" id="card-circle-two"></div>
+            </div>
+        
+            <div class="css-code">
+                <!-- Display the css code of the corresponding glassmorphism here -->
+            </div>
+        </div>
+
+      
+            
+            <div class="slider-conatainer">
+                <h1 class="header-silder-background">Background Settings</h1>
+                <div class="slide">
+                    <h2 style="color: red; margin-right: 1em;" class="fontStyle">R</h2>
+                    <input type="range" min="0" max="255" value="197" class="slider" id="myRange-red">
+                </div>
+
+                <div class="slide">
+                    <h2 style="color: green; margin-right: 1em;" class="fontStyle">G</h2>
+                    <input type="range" min="0" max="255" value="102" class="slider" id="myRange-green" style="background: green; border: 4px solid green">
+                </div>
+
+                <div class="slide">
+                    <h2 style="color: blue; margin-right: 1em;" class="fontStyle">B</h2>
+                    <input type="range" min="0" max="255" value="0" class="slider" id="myRange-blue" style="background: blue; border: 4px solid blue">
+                </div>
+
+                <div class="card-settings">
+                    <h1 class="header-silder-background">Contour settings</h1>
+                    <div class="slide" style="margin-left: -4.5em;">
+                        <h2 style=" margin-right: 1em;" class="fontStyle-card">Opacity</h2>
+                        <input type="range" min="0" max="1" step="0.1" value="0.3" class="slider" id="myRange-opacity" style="background: black; border: 4px solid black">
+                    </div>
+
+                    <div class="slide" style="margin-left: -2em;">
+                        <h2 style=" margin-right: 1em;" class="fontStyle-card">Blur</h2>
+                        <input type="range" min="0" max="255" value="50" class="slider" id="myRange-blur" style="background: black; border: 4px solid black">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="style.js"></script>
+</body>
+</html>
