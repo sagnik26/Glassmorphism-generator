@@ -13,6 +13,8 @@ let code_filter_one = document.getElementById('code-filter-one');
 let code_filter_two = document.getElementById('code-filter-two');
 let code_gradient = document.getElementById('code-grad');
 
+let copy_btn = document.getElementById('copy');
+
 let r = 0, g = 0, b = 0, opacity = 0.3, blur = 0;
 
 slider_red.addEventListener('input', (event) => {

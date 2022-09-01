@@ -176,6 +176,18 @@ body {
     left: 67%;
 }
 
+/* copy button */
+
+.copy-btn {
+    color: white; 
+    background-color: black; 
+    cursor: pointer; 
+    position: relative; 
+    left: 3%; 
+    top: 5%;
+}
+
+
 
 /* media queries */
 
