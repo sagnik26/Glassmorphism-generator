@@ -125,14 +125,14 @@ body {
     height: 18vh;
     color: white;
     position: relative;
-    top: 15%;
-    left: 10%;
+    top: 12%;
+    left: 12%;
     /* border: 1px solid green; */
     
 }
 
 .code h3 {
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 
@@ -177,7 +177,19 @@ body {
 }
 
 
+/* media queries */
 
+@media screen and (max-width:1600px) {
+
+    .code {
+        top: -2%;
+        left: 14%;
+    }
+
+    .code h3 {
+        line-height: 1.5;
+    }
+}
 
 
 
