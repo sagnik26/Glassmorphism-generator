@@ -61,3 +61,8 @@ slider_blur.addEventListener('input', (event) => {
     code_filter_one.innerText = blur;
     code_filter_two.innerText = blur;
 })
+
+copy_btn.addEventListener('click', (event) => {
+    let css_snippet = document.getElementById('css-snippet');
+    navigator.clipboard.writeText(css_snippet.innerText).then(() => alert('copied'));
+})
