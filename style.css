@@ -120,6 +120,17 @@ body {
     position: relative;
 }
 
+.code {
+    color: white;
+    position: relative;
+    top: -5%;
+    left: 7%;
+}
+
+.code h3 {
+    line-height: 1.8;
+}
+
 
 /* display */
 
@@ -162,11 +173,6 @@ body {
 }
 
 
-/* css-code */
-
-.code-container {
-    position: relative;
-}
 
 
 
