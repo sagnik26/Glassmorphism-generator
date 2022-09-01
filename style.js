@@ -11,7 +11,7 @@ let circle_two = document.getElementById('card-circle-two');
 
 let code_filter_one = document.getElementById('code-filter-one');
 let code_filter_two = document.getElementById('code-filter-two');
-let code_gradient = document.getElementById('code-gradient');
+let code_gradient = document.getElementById('code-grad');
 
 let r = 0, g = 0, b = 0, opacity = 0.3, blur = 0;
 
@@ -45,7 +45,8 @@ slider_opacity.addEventListener('input', (event) => {
     if(!opacity)
         opacity = 0;
     // card.style.opacity = opacity;
-    card.style.backgroundImage = `linear-gradient(155deg, rgba(255, 255, 255, ${opacity}), rgba(255, 255, 255, 0))`
+    card.style.backgroundImage = `linear-gradient(155deg, rgba(255, 255, 255, ${opacity}), rgba(255, 255, 255, 0))`;
+    code_gradient.innerText = opacity;
 })
 
 slider_blur.addEventListener('input', (event) => {
