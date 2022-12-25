@@ -6,4 +6,4 @@
 [visit here](https://glassmorphism-design-generator.netlify.app/)
 
 ## Description
-Glassmorphism is a style which, as the name implies, uses properties of glass to enhance your designs. It gives a translucent or transparent look and feel to its elements. Glassmorphic elements and shapes work really well on vibrant, colorful backgrounds which accentuate the glass effect. The project developed is a web Tool which generates css code for diffrent styles of design.
+Glassmorphism is a style which, as the name implies, uses properties of glass to enhance your designs. It gives a translucent or transparent look and feel to its elements. Glassmorphic elements and shapes work really well on vibrant, colorful backgrounds which accentuate the glass effect. The project developed is a web Tool which generates css code for diffrent styles of Glassmorphism design.
